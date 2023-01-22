@@ -1,0 +1,37 @@
+#header{
+    background-image: url("../images/banner.png"),url("../images/grediant.png");
+    height: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: multiply;
+    
+}
+hr{
+    width: 15%;
+}
+.bg-color{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.hover-img:hover{
+    opacity: .5;
+      transform: scale(.8);
+      transition: 1s;
+}
+.card-color{
+    background-color: aqua;
+}
+.hover-card:hover{
+    transform: scale(.9);
+      transition: 1s;
+}
+
+.btn-news{
+    max-width: 170px;
+}
+
+.ratings > img{
+    width: 22px;
+}
